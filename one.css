@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 719px;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+#container{
+    display: flex;
+    height: 550px;
+    width: 1000px;
+    background-image: linear-gradient(to right, rgb(200, 241, 255), rgb(0, 134, 179));
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+img{
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 6px;
+    width: 30px;
+    opacity: 0.3;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
